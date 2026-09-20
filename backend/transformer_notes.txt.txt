@@ -1,0 +1,14 @@
+A transformer is an electrical device that transfers AC
+electrical energy from one circuit to another through
+electromagnetic induction.
+
+The primary winding is connected to the AC supply.
+Alternating current in the primary winding produces
+alternating magnetic flux in the transformer core.
+
+This changing magnetic flux links the secondary winding
+and induces an EMF in the secondary winding.
+
+A step-up transformer increases voltage and decreases
+current, while a step-down transformer decreases voltage
+and increases current.
