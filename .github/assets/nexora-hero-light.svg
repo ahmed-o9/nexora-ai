@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520">
+<defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#F7F9FC"/><stop offset="1" stop-color="#FFFFFF"/></linearGradient><pattern id="p" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#DCE4F0" opacity=".55"/></pattern></defs>
+<rect width="1200" height="520" fill="url(#g)"/><rect width="1200" height="520" fill="url(#p)" opacity=".35"/>
+<text x="70" y="70" fill="#101827" font-size="34" font-family="Arial" font-weight="900" letter-spacing="8">NEXORA</text>
+<text x="73" y="94" fill="#5E6B80" font-size="10" font-family="Arial" letter-spacing="4">AI LEARNING ENGINE</text>
+
+        <circle cx="600" cy="270" r="120" fill="none" stroke="#63E6FF" opacity=".22"/>
+        <circle cx="600" cy="270" r="88" fill="none" stroke="#A78BFA" stroke-width="2" stroke-dasharray="9 12">
+          <animateTransform attributeName="transform" type="rotate" from="0 600 270" to="360 600 270" dur="14s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="600" cy="270" r="58" fill="#FFFFFF" stroke="#63E6FF" stroke-width="2"/>
+        <text x="600" y="264" text-anchor="middle" fill="#101827" font-size="21" font-family="Arial" font-weight="800">NEXORA</text>
+        <text x="600" y="284" text-anchor="middle" fill="#63E6FF" font-size="9" font-family="Arial" letter-spacing="3">AI ENGINE</text>
+        <path d="M600 212V150M658 240L710 205M658 300L710 335M542 240L490 205M542 300L490 335" stroke="#DCE4F0" stroke-width="2"/>
+        <circle cx="600" cy="150" r="5" fill="#63E6FF"><animate attributeName="r" values="4;7;4" dur="1.8s" repeatCount="indefinite"/></circle>
+        <circle cx="710" cy="205" r="5" fill="#A78BFA"><animate attributeName="r" values="4;7;4" dur="2s" repeatCount="indefinite"/></circle>
+        <circle cx="710" cy="335" r="5" fill="#FF7AD9"><animate attributeName="r" values="4;7;4" dur="1.6s" repeatCount="indefinite"/></circle>
+        <circle cx="490" cy="205" r="5" fill="#6EE7B7"><animate attributeName="r" values="4;7;4" dur="2.1s" repeatCount="indefinite"/></circle>
+        <circle cx="490" cy="335" r="5" fill="#63E6FF"><animate attributeName="r" values="4;7;4" dur="1.7s" repeatCount="indefinite"/></circle>
+<rect x="0" y="500" width="1200" height="20" fill="#63E6FF" opacity=".06"/>
+<rect x="-280" y="500" width="280" height="20" fill="#63E6FF" opacity=".18"><animate attributeName="x" from="-280" to="1200" dur="6s" repeatCount="indefinite"/></rect>
+</svg>
