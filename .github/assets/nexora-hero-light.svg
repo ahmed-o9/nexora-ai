@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 430">
+<defs>
+ <linearGradient id="g" x1="0" x2="1"><stop stop-color="#00e5ff"/><stop offset=".5" stop-color="#8b5cf6"/><stop offset="1" stop-color="#ff4ecd"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#dbe3ef" stroke-width="1"/></pattern>
+ <style>
+ .pulse{animation:p 2.4s ease-in-out infinite} .spin{animation:s 12s linear infinite;transform-origin:600px 215px}
+ .scan{animation:scan 4s linear infinite} @keyframes p{50%{opacity:.35}}
+ @keyframes s{to{transform:rotate(360deg)}} @keyframes scan{from{transform:translateY(-170px)}to{transform:translateY(170px)}}
+ </style>
+</defs>
+<rect width="1200" height="430" rx="28" fill="#f7f9fc"/>
+<rect x="18" y="18" width="1164" height="394" rx="22" fill="url(#grid)" opacity=".75"/>
+<rect x="28" y="28" width="1144" height="374" rx="18" fill="none" stroke="#dbe3ef"/>
+<g class="scan" opacity=".16"><rect x="40" y="210" width="1120" height="2" fill="url(#g)"/></g>
+<g class="spin" fill="none" stroke="url(#g)" filter="url(#glow)">
+ <circle cx="600" cy="215" r="112" stroke-width="1.5" stroke-dasharray="5 12"/>
+ <circle cx="600" cy="215" r="82" stroke-width="2" stroke-dasharray="2 9"/>
+</g>
+<circle cx="600" cy="215" r="58" fill="#f7f9fc" stroke="url(#g)" stroke-width="4" filter="url(#glow)" class="pulse"/>
+<circle cx="600" cy="215" r="12" fill="#00ff9c" filter="url(#glow)" class="pulse"/>
+<g font-family="Inter,Arial,sans-serif" text-anchor="middle">
+ <text x="600" y="112" fill="#667085" font-size="15" letter-spacing="6">LEARNING INTELLIGENCE ENGINE</text>
+ <text x="600" y="164" fill="#101828" font-size="52" font-weight="800" letter-spacing="12">NEXORA</text>
+ <text x="600" y="300" fill="#101828" font-size="18" letter-spacing="4">ASK  ·  THINK  ·  VISUALIZE  ·  LEARN</text>
+ <text x="600" y="338" fill="#00ff9c" font-size="12" letter-spacing="3">● ORCHESTRATOR ONLINE   ● MEMORY ONLINE   ● TOOLS ONLINE</text>
+</g>
+</svg>
